@@ -5,4 +5,5 @@ for i in range(len(z)):
     z[i]=z[i].upper()
   else:
     z[i]=z[i].lower()
+z=" ".join(z)
 print(z)
